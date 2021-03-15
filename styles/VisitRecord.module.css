@@ -2,15 +2,11 @@
     position: fixed;
     display: flex;
     flex-direction: column;
-    /* justify-content: flex-start; */
     align-items: center;
-    min-width: 100vw;
     min-height: 100vh;
-    /* border: 10px solid sandybrown; */
     background-color: #E0E0E0;
-    
-}
-
+     /* border: 10px solid sandybrown; */
+} 
 .title {
     /* border: 5px solid paleturquoise; */
     display: flex;
@@ -23,7 +19,7 @@
     color: #443F3F;
     font-size: small;
     background-color: #AB80AD;
-}
+  }
 .head1 {
     /* border: 5px solid pink; */
     display: flex;
@@ -31,7 +27,7 @@
     align-items:center;
     text-align: center;
     /* margin-left: 120px; */
-}
+  }
 .line {
     width: 120px;
     border-top: 2px solid #443F3F;
@@ -40,7 +36,7 @@
     border-left: 0 solid;
     margin-left: 10px;
     margin-right: 10px;
-}
+  }
 .line2 {
     border-left: 2px  solid #443F3F;
     border-top: 0 solid ;
@@ -49,21 +45,20 @@
     height: 100px;
     margin-left: 10px;
     margin-right: 10px;
-}
-/* .head2 { */
+  }
+  /* .head2 { */
     /* border: 5px solid red; */
-/* }  */
+  /* }  */
 .search {
     min-width: 55vw;
     min-height: 5vh;
     border-radius: 5px;
     background-color: rgba(196, 196, 196, 0.7);
     border: 0 solid;
-}
+  }
+  
 
-
-
-.visitRecordHead {
+.NameHead {
     position: relative;
     display: flex;
     flex-direction:column;
@@ -71,23 +66,23 @@
     align-items: center;
     margin-top: 30px;
     width: 200px;
-    height: 80px;
+    height: 70px;
     border: 0px solid;
     background-color: #C4C4C4;;
-    border-radius: 15px;
+    border-radius: 8px;
     color: #443F3F;
     font-weight:bolder;
     font-size:large;
-    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19) ;
+    /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19) ; */
 }
-.visitRecordbar {
+.hnSearchbar {
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content:flex-start;
     align-items: center;
     margin-top: 30px;
     height: 40px;
-    min-width: 100vw;
+    min-width: 77vw;
     background-color: #C4C4C4;
     /* border: 2px solid red; */
 }
@@ -101,16 +96,16 @@
     padding: 7px;
     border: 0 solid;
     border-radius: 5px;
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2)
+    /* box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2) */
 }
 .edit {
-    margin: 30px;
+    margin: 30px; 
     background-color: #AB80AD;
     border: 0 solid;
     border-radius: 5px;
     padding: 7px;
     font-weight: bolder;
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2)
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2) */
     
 }
 .save {
@@ -119,16 +114,15 @@
     border-radius: 5px;
     padding: 7px;
     font-weight: bolder;
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2)
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2) */
   
 }
-
 
 
 .visitRecordData {
     display: flex;
     flex-direction: column;
-    min-width: 100vw;
+    min-width: 77vw;
     margin-top: 30px;
     background-color:  #C4C4C4;
     padding: 15px;
@@ -157,7 +151,7 @@
     border-radius: 3px;
     /* padding: 10px; */
     height: 120px;
-    width: 40vw;
+    width: 60vw;
     box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2)
   
 }

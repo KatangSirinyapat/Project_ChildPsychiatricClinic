@@ -1,5 +1,6 @@
 import styles from "../styles/VisitRecord.module.css"
 
+
 const VisitRecord = () => {
     const renderVisitRecord = () => {
         return (
@@ -13,19 +14,20 @@ const VisitRecord = () => {
 
                     <hr className = {styles.line2}></hr>
                     
-                    <div  className = {styles.head2}>
+                    <div>
                         <input className = {styles.search} type="text" placeholder="Search.." name="search" />
+                        {/* <button type="submit"><i class="fa fa-search"></i></button> */}
                     </div>
 
                     <hr className = {styles.line2}></hr>
-                    
+
                 </nav>
 
-            <div className = {styles.visitRecordHead}>
+            <div className = {styles.NameHead}>
                 <p>Visit Record</p>
             </div>
 
-            <div className = {styles.visitRecordbar}>
+            <div className = {styles.hnSearchbar}>
                 <p className = {styles.hn}>HN :</p>
                 <input className = {styles.hnSearch} type="text" placeholder="Hospital Number" name="search2" />
                 <button className = {styles.edit}>แก้ไข</button>
