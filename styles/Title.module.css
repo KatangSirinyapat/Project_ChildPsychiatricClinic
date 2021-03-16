@@ -1,0 +1,73 @@
+.container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: #E0E0E0;
+    /* border: 10px solid sandybrown; */
+} 
+  
+.NameHead {
+    position: relative;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+    width: 200px;
+    height: 70px;
+    border: 0px solid;
+    background-color: #C4C4C4;;
+    border-radius: 8px;
+    color: #443F3F;
+    font-weight:bolder;
+    font-size:large;
+    /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 15px 0 rgba(0, 0, 0, 0.19) ; */
+}
+
+.hnSearchbar {
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 30px;
+    height: 40px;
+    min-width: 77vw;
+    background-color: #C4C4C4;
+    /* border: 2px solid red; */
+}
+
+.hn {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+.hnSearch {
+    background-color: #AB80AD;
+    width: 20vw;
+    padding: 7px;
+    border: 0 solid;
+    border-radius: 5px;
+    /* box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2) */
+}
+
+.edit {
+    margin: 30px; 
+    background-color: #AB80AD;
+    border: 0 solid;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bolder;
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2) */
+}
+
+.save {
+    background-color: #AB80AD;
+    border: 0 solid;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bolder;
+    /* box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2) */
+}

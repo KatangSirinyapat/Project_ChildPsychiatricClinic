@@ -1,37 +1,20 @@
 import styles from "../styles/VisitRecord.module.css"
+import titlestyle from "../styles/title.module.css"
 
 
 const VisitRecord = () => {
     const renderVisitRecord = () => {
         return (
-        <div className = {styles.container}>
-                <nav className = {styles.title}>
-                    <div className = {styles.head1}>
-                        <p>HATYAI HOSPITAL</p>
-                        <hr className = {styles.line}></hr>
-                        <p>Child Psychiatric Clinic</p>  
-                    </div>
-
-                    <hr className = {styles.line2}></hr>
-                    
-                    <div>
-                        <input className = {styles.search} type="text" placeholder="Search.." name="search" />
-                        {/* <button type="submit"><i class="fa fa-search"></i></button> */}
-                    </div>
-
-                    <hr className = {styles.line2}></hr>
-
-                </nav>
-
-            <div className = {styles.NameHead}>
+        <div className = {titlestyle.container}>
+            <div className = {titlestyle.NameHead}>
                 <p>Visit Record</p>
             </div>
 
-            <div className = {styles.hnSearchbar}>
-                <p className = {styles.hn}>HN :</p>
-                <input className = {styles.hnSearch} type="text" placeholder="Hospital Number" name="search2" />
-                <button className = {styles.edit}>แก้ไข</button>
-                <button className = {styles.save}>บันทึก</button>
+            <div className = {titlestyle.hnSearchbar}>
+                <p className = {titlestyle.hn}>HN :</p>
+                <input className = {titlestyle.hnSearch} type="text" placeholder="Hospital Number" name="search2" />
+                <button className = {titlestyle.edit}>แก้ไข</button>
+                <button className = {titlestyle.save}>บันทึก</button>
             </div>
 
             <div className = {styles.visitRecordData}>
