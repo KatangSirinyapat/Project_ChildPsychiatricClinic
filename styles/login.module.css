@@ -1,139 +1,98 @@
 .container {
-    /* position: fixed; */
+    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* border: 10px solid sandybrown; */
     min-height: 100vh;
+    min-width: 100vw;
+    /* border: 10px solid sandybrown; */
     background-image:linear-gradient(180deg, rgba(61, 0, 234, 0.8) -2.69%, rgba(61, 0, 234, 0.8) -2.67%, rgba(85, 78, 103, 0.783408) -2.66%, rgba(157, 157, 159, 0) 113.6%, rgba(177, 150, 255, 0) 113.61%)
 }
-.title {
-    position: fixed;
-    min-width: 100vw;
+.containerbar {
     display: flex;
     flex-direction: row;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    min-width: 100vw;
     background-color:#BAADCA;
+    /* border: 10px solid pink; */
 }
-.title_li {
-    /* display: flex;
-    flex-direction: row; */
-    display: block;
+.title {
+    display: flex;
     color: black;
     font-weight: bold;
     text-align: center;
     padding: 18px 16px;
-    text-decoration: none;
     /* border: 10px solid salmon;  */
 }
-.title_li2:hover {
-    /* border: 10px solid salmon;  */
+.containerbar_right {
+   display: flex;
+   flex-direction: row;
+   margin-left: auto;
+}
+.barright {
+    display: flex;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 18px 16px;
+    /* border: 10px solid peru;  */
+}
+.barright_hover:hover {
     background-color: #a378d8;
 }
-.topRight1 {
-    position: fixed;
-    top: 0px;
-    right: 100px; 
-    /* border: 2px solid red ; */
-    margin-right: 20px;
-}
-
-.topRight2 {
-    position: fixed;
-    top: 0px;
-    right: 0px; 
-    /* border: 2px solid red ; */
-}
 
 
-/* .loginbox { */
-    /* display: flex; */
-    /* position: absolute; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* padding-top: 50px; */
-    /* align-items: center; */
-    /* border-radius: 30px 30px 20px 20px ; */
-    /* min-height: 50vh; */
-    /* outline: 4px solid palegoldenrod; */
-    /* background-color:#CECECE;; */
-    /* padding: 0px; */
-    /* box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ; */
-/* } */
 
 .loginboxhead {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 45px;
-    min-height: 20vh;
-    /* outline: 4px solid red; */
-    min-width: 10vw;
+    align-items: center; 
     background-color: #AB80AD;
+    margin-top: -50px;
+    padding: 30px;
     border-radius: 20px 20px 0px 0px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
+    /* border: 4px solid red; */
 }
 .line {
     width: 180px;
+    margin: 20px;
     border-top: 2px solid black;
     border-bottom: 0 solid ;
     border-right: 0 solid  ;
     border-left: 0 solid;
-}
-.line2 {
-    border-left: 2px  solid black;
-    border-top: 0 solid ;
-    border-bottom: 0 solid ;
-    border-right: 0 solid ;
-    margin-left: 1256px;
-
-    /* margin-left: 10px;
-    margin-right: 10px;
-    position: fixed; */
-    /* top: 0px;   */
-}
-   
+}  
 .login {
-    /* display: flex; */
-    /* justify-content: center; */
-    /* text-align: center; */
-    /* flex-direction: column; */
-    /* margin-top: 0px; */
-    min-height: 20vw;
-    padding: 20px;
-    padding-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 15px;
     background-color:#CECECE;;
     border-radius: 0px 0px 20px 20px ;
-    /* border: 3px solid red; */
+    /* border: 3px solid pink; */
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) ;
- 
 }
 .loginInput {
     color:  #443F3F;
     border-radius: 5px;
-    padding: 10px 30px;
-    margin: 10px;
-    margin-top: 20px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin: 10px; 
     border: 0px solid;
-    background-color: #A9A9A9;
+    color: black;
+    background-color: #c2c2c2;
+    /* border: 4px solid red; */
 }
 .loginbutton {
     background-color: #AB80AD;
-    padding: 7px 85px;
-    margin: 10px;
-    margin-top: 20px;
+    padding: 5px 40px;
+    margin: 5px;
     border: 0px solid;
-    font-weight: bold; 
+    /* border: 4px solid red; */
 }
 .LoginForgot {
-    display: flex;
-    justify-content: center;
     font-size: small;
-    margin: 10px;
     padding-top: 2vh;
 }

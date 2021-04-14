@@ -1,0 +1,73 @@
+.containerMeeting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-width: 77vw;
+    margin-top: 30px;
+    background-color:  #C4C4C4;
+    padding: 10px;
+    /* border: 5px solid salmon; */
+}
+.showMeeting {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid khaki; */
+}
+.meetingDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid lightcoral; */
+    margin-top: 20px;
+}
+.meetingTime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid lightcoral; */
+    margin-top: 20px;
+}
+.meetingDoctor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid lightcoral; */
+    margin-top: 20px;
+}
+.meetingRoom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 4px solid lightcoral; */
+    margin-top: 20px;
+}
+.input{
+    display: flex;
+    padding: 5px;
+    border: 0 solid;
+    border-radius: 3px;
+    width: 12vw;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
+    /* border: 4px solid lightcoral; */
+}
+.select{
+    display: flex;
+    padding: 7px;
+    border: 0 solid;
+    border-radius: 3px;
+    width: 15vw;
+    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2)
+}
+.buttonOk{
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    background-color: #AB80AD;
+    border: 0 solid;
+    border-radius: 5px;
+    padding: 7px;
+    font-weight: bolder;
+}

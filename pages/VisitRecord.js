@@ -1,11 +1,15 @@
 import styles from "../styles/VisitRecord.module.css"
 import titlestyle from "../styles/title.module.css"
+import Bar from "../components/bar"
 
 
 const VisitRecord = () => {
     const renderVisitRecord = () => {
         return (
+        <div>
+            <Bar />
         <div className = {titlestyle.container}>
+           
             <div className = {titlestyle.NameHead}>
                 <p>Visit Record</p>
             </div>
@@ -13,8 +17,11 @@ const VisitRecord = () => {
             <div className = {titlestyle.hnSearchbar}>
                 <p className = {titlestyle.hn}>HN :</p>
                 <input className = {titlestyle.hnSearch} type="text" placeholder="Hospital Number" name="search2" />
-                <button className = {titlestyle.edit}>แก้ไข</button>
-                <button className = {titlestyle.save}>บันทึก</button>
+                <div className = {titlestyle.button}>
+                    <button className = {titlestyle.edit}>แก้ไข</button>
+                    <button className = {titlestyle.save}>บันทึก</button>
+                </div>
+                
             </div>
 
             <div className = {styles.visitRecordData}>
@@ -29,6 +36,7 @@ const VisitRecord = () => {
                 <label className = {styles.font} for="detail">รายละเอียด</label><br/>
                 <textarea className = {styles.detail} id="detail"></textarea>
             </div>
+        </div>
         </div>
     )    
 }

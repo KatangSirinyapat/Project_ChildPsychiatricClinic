@@ -1,0 +1,35 @@
+.recordData {
+    display: flex;
+    flex-direction: row;
+    min-width: 77vw;
+    margin-top: 30px;
+    background-color:  #C4C4C4;
+    padding: 15px;
+    /* border: 5px solid salmon; */
+}
+.showRecord {
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    /* border: 5px solid saddlebrown; */
+}
+.font {
+    margin: 10px;
+}
+.buttonData {
+    margin-left: auto;
+    /* border: 5px solid saddlebrown; */
+}
+.buttonAdd {
+    background-color: #AB80AD;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-right: 20px;
+}
+.buttonUpdate {
+    background-color: #AB80AD;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+}

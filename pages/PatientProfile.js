@@ -1,12 +1,12 @@
 import styles from "../styles/PatientProfile.module.css"
 import titlestyle from "../styles/title.module.css"
-import { Row, Col } from "reactstrap";
+import Bar from "../components/bar"
 
 const PatientProfile = () => {
     const renderPatientProfile = () => {
         return (
         <div className = {titlestyle.container}>
-        
+            <Bar />
             <div className = {titlestyle.NameHead}>
                 <p>Patient Profile</p>
             </div>
@@ -14,8 +14,10 @@ const PatientProfile = () => {
             <div className = {titlestyle.hnSearchbar}>
                 <p className = {titlestyle.hn}>HN :</p>
                 <input className = {titlestyle.hnSearch} type="text" placeholder="Hospital Number" name="search2" />
-                <button className = {titlestyle.edit}>แก้ไข</button>
-                <button className = {titlestyle.save}>บันทึก</button>
+                <div className = {titlestyle.button}>
+                    <button className = {titlestyle.edit}>แก้ไข</button>
+                    <button className = {titlestyle.save}>บันทึก</button>
+                </div>
             </div><br/>
 
             <div>

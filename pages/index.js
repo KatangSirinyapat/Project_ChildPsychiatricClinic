@@ -1,27 +1,30 @@
-import Head from 'next/head'
 import styles from "../styles/Login.module.css"
+import Link from 'next/link'
 
 export default function Home() {
   return (
     <div>
-    <nav className = {styles.title} >
-                    <li className = {styles.title_li}>HATYAI  HOSPITAL</li>
-                    <li><a className = {`${styles.title_li} ${styles.title_li2} ${styles.topRight1}`} href="#news">LOG IN</a></li> 
-                    {/* <hr className = {styles.line2}></hr> */}
-                    <li><a className = {`${styles.title_li} ${styles.title_li2} ${styles.topRight2}`} href="#contact">SIGN UP</a></li>  
+            <nav className = {styles.containerbar}>
+                    <div className = {styles.title}>HATYAI  HOSPITAL</div>
+                    <div className = {styles.containerbar_right}>
+                        <div className = {`${styles.barright} ${styles.barright_hover}`}>LOG IN</div> 
+                        <div className = {`${styles.barright} ${styles.barright_hover}`}>SIGN UP</div>  
+                    </div>   
             </nav>
             
             <div className={styles.container}>
                 <div>
                     <div className={styles.loginboxhead}>
-                        <h3 >Child Psychiatric Clinic</h3>
+                        <h3>Child Psychiatric Clinic</h3>
                         <hr className={styles.line}></hr>
-                        <h3 >User Login</h3>
+                        <h3>User Login</h3>
                     </div>
                     <div className = {styles.login}>
                         <input className = {styles.loginInput} type="text" placeholder="Username" /> <br />
                         <input className = {styles.loginInput} type="password" placeholder="Password" /> <br />
-                        <button className = {styles.loginbutton}>LOG IN</button><br />
+                      
+                        <a href = "/menu"> <button className = {styles.loginbutton}>LOG IN</button></a><br />
+                      
                         <a href="#" className = {styles.LoginForgot}>Forgot Password?</a>
                     </div>
                 </div>
